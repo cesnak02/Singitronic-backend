@@ -1,12 +1,12 @@
 #SINGITRONIC BACKEND
 
-1. Napraviti .env fajl u root-u aplikacije i u njemu
+1. Create a .env file in the root directory of the application and add the following line:
    ```
    DATABASE_URL="mysql://username:password@localhost:3306/database_store"
    ```
-2. Kucati u terminalu npm install da instalira sve potrebne pakete
-3. Uraditi i npm install express-fileupload posebno
-4. Uraditi npx prisma migrate dev za prismu
-5. Otici u folder utills i pokrenuti komandu node insertDemoData.js za dodavanje podataka u bazu
-6. U korenoj komponenti pokrenuti node app.js   
+2. Run npm install in the terminal to install all necessary packages.
+3. Run npm install express-fileupload separately.
+4. Run npx prisma migrate dev for Prisma.
+5. Navigate to the utils folder and execute the command node insertDemoData.js to add data to the database.
+6. In the root component, run node app.js.
    
